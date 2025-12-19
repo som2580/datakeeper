@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>สมุดบัญชีเงินฝาก</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2 style="margin-top: 5px; font-family: Phetsarath OT;">ບັນຊີຝາກເງິນ</h2>
+<h2>SOMPHONG PHONSAMAI</h2>
+
+
+<input type="date" id="date">
+<input type="text" id="detail" placeholder="รายการ">
+
+
+<select id="type">
+<option value="ฝาก">ฝาก</option>
+<option value="ถอน">ถอน</option>
+</select>
+
+
+<input type="number" id="amount" placeholder="จำนวนเงิน">
+
+
+<button onclick="saveData()">บันทึก</button>
+
+
+<div id="alert" class="alert"></div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
